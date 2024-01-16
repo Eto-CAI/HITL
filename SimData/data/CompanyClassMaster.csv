@@ -1,0 +1,10 @@
+﻿#CompanyClassID,CompanyClassName,CompanyClassType
+CC001,市場,CCMarket
+CC002,販社,CCSalesCompany
+CC003,生産工場,CCFactory
+CC004,倉庫,CCWarehouse
+CC005,輸送業者,CCCarrier
+CC006,送金機関,CCRemittanceBank
+CC007,サプライヤ,CCSupplier
+CC008,統括,CCGeneral
+CC009,加工/検査工場,CCInspectionFactory

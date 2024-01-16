@@ -1,0 +1,10 @@
+﻿#CompanyISID,ItemID,StartDate,SafetyStockQuantity,PrecedingRetentionDays,KanbanQuantity,SafetyStockCoefficient,PastActualDemandReferencePeriod
+Factory,partsC,19710101,0,0,0,1,1
+Factory,partsB,19710101,0,0,0,1,1
+Factory,partsA,19710101,0,0,0,1,1
+Factory,C,19710101,0,0,0,1,1
+Factory,B,19710101,0,0,0,1,1
+Factory,A,19710101,0,0,0,1,1
+Sales,C,19710101,0,0,0,1,1
+Sales,B,19710101,0,0,0,1,1
+Sales,A,19710101,0,0,0,1,1

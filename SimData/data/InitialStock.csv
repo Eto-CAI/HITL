@@ -1,0 +1,4 @@
+﻿#CompanyISID,ItemID,ExpirationDate,Quantity,Processed/InspectedFlg
+Factory,partsC,,50,
+Factory,partsB,,50,
+Factory,partsA,,50,

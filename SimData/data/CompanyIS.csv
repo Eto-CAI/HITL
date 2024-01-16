@@ -1,0 +1,8 @@
+﻿#CompanyISID,CompanyISName,CompanyClassID,FromCompanyISID,ToCompanyISID,PaymentCycle,ClosingDay,PaymentDay,PaymentLT,ShipTime,ArrivalTime,CashoutTime,CashinTime,CurrencyID,CalendarID,Area
+CI001,Supplier,CC007,,,,,,,1800,0900,,1500,,,
+Factory,Factory,CC003,,,,,,,1800,0900,1400,1000,,,
+Market,Market,CC001,,,,,,,1800,0900,1100,,,,
+Sales,Sales,CC002,,,,,,,1800,0900,1200,1100,,,
+T1,Supplier-Factory,CC005,CI001,Factory,,,,,,,,,,,
+T2,Factory-Sales,CC005,Factory,Sales,,,,,,,,,,,
+T3,Sales-Market,CC005,Sales,Market,,,,,,,,,,,

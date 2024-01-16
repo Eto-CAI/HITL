@@ -1,0 +1,4 @@
+﻿#ParentItemID,ChildItemID,Consumption
+A,partsA,1
+B,partsB,1
+C,partsB,2

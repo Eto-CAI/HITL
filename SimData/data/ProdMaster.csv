@@ -1,0 +1,4 @@
+﻿#CompanyISID,ParentItemID,ProdLT,YieldRatio,DirectLaborUnitCost,ProdLotSize,ProdCompletionTime,StdWorkTime[min],AccelerationPeriod,WIPCoefficient
+Factory,C,1,,1,1,1500,1,30,
+Factory,B,1,,1,1,1500,1,30,
+Factory,A,1,,1,1,1500,1,30,

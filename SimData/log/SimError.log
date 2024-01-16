@@ -1,0 +1,29 @@
+﻿File(SimData/data/BoxTypeMaster.csv)OpenError
+File(SimData/data/BoxMaster.csv)OpenError
+File(SimData/data/Company-BOX.csv)OpenError
+File(SimData/data/CurrencyMaster.csv)OpenError
+Warning:File(SimData/data/CompanyIS.csv)(2)Line Currency ID is empty. Default currency will be set to companyIS(CI001).
+Warning:File(SimData/data/CompanyIS.csv)(3)Line Currency ID is empty. Default currency will be set to companyIS(Factory).
+Warning:File(SimData/data/CompanyIS.csv)(4)Line Currency ID is empty. Default currency will be set to companyIS(Market).
+Warning:File(SimData/data/CompanyIS.csv)(5)Line Currency ID is empty. Default currency will be set to companyIS(Sales).
+File(SimData/data/InitialWIP_InTransit.csv)OpenError
+File(SimData/data/SupplyForecast.csv)OpenError
+File(SimData/data/InitialBoxStock.csv)OpenError
+File(SimData/data/ShipInstruction.csv)OpenError
+File(SimData/data/BoxShipInstruction.csv)OpenError
+File(SimData/data/InitialBoxIntransit.csv)OpenError
+File(SimData/data/TransportTypeSettings.csv)OpenError
+File(SimData/data/TransportMeanMaster.csv)OpenError
+File(SimData/data/ItemPrice.csv)OpenError
+File(SimData/data/BoxPrice.csv)OpenError
+File(SimData/data/InitialAccount.csv)OpenError
+File(SimData/data/RiskConfig.csv)OpenError
+File(SimData/data/HolidayCalendarIS.csv)OpenError
+File(SimData/data/CAPEX.csv)OpenError
+File(SimData/data/FixedCost.csv)OpenError
+File(SimData/data/CO2Factor.csv)OpenError
+File(SimData/data/CO2FactorAssignment.csv)OpenError
+File(SimData/data/PastDemand.csv)OpenError
+File(SimData/data/SharingMaster.csv)OpenError
+File(SimData/data/ContainerMaster.csv)OpenError
+File(SimData/data/BreakingTime.csv)OpenError

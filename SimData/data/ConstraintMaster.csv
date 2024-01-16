@@ -1,0 +1,15 @@
+﻿#ConstraintID,ConstraintName,Remarks
+InventoryCapacity,在庫キャパシティ,在庫保管能力上限を設定する
+PartsInventoryCapacity,部品在庫キャパシティ,部品在庫保管能力上限を設定する
+ReceivingCapacity,入庫キャパシティ,日入荷能力上限を設定する
+ShippingCapacity,出庫キャパシティ,日出荷能力上限を設定する
+ProductionCapacity,生産キャパシティ,日生産能力上限を設定する
+TransportUpperLimit,輸送量上限,日輸送能力上限を設定する
+TransportLowerLimit,輸送量下限,日輸送能力下限を設定する
+FacilityCapacity,工場設備制約,工場で利用する設備の利用可能時間を設定する
+ProcurementUpperLimit,調達量上限,日々の調達量上限を設定する
+ProcurementLowerLimit,調達量下限,日々の調達量下限を設定する
+ProcurementRange,調達量変更可能レンジ(小数点),前計画からの変更可能範囲を設定する
+PurchaseOrderPeriod,注文発行期間,注文発行期間を設定する
+BookingOrderPeriod,予約注文発行期間,予約注文発行期間を設定する
+ProdPlanFixPeriod,生産計画Fix期間,生産計画Fix期間を設定する

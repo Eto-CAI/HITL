@@ -1,0 +1,240 @@
+<!-- 【共生自立分散デモ開発】SCシミュレーションエンジン定義ファイル -->
+<!-- 2015/02/20作成 -->
+<!-- 2016/09/09 XML版 作成 -->
+<!-- 2019/02/16 更新 -->
+<!-- 2019/04/19 更新 -->
+<!-- 2020/09/08 更新 -->
+<!-- 2021/06/22 更新 -->
+<!-- 2022/02/21 更新 -->
+<!-- 2022/06/01 更新 -->
+<!-- 2022/08/17 更新 -->
+<!-- 2023/06/26 更新 -->
+
+<SCMEngineSettings>
+	<LogOutputControl>
+		<Daily>
+			<!-- 口座残高 --><AccountBalance>0</AccountBalance>
+			<!-- 需要実績 --><ActualDemand>0</ActualDemand>
+			<!-- 入庫実績 --><ArrivalActual>0</ArrivalActual>
+			<!-- 出庫実績 --><ShipActual>0</ShipActual>
+			<!-- 入金実績 --><ReceivingActual>0</ReceivingActual>
+			<!-- 出金実績 --><PaymentActual>0</PaymentActual>
+			<!-- 売掛残高 --><SalesBalance>0</SalesBalance>
+			<!-- 買掛残高 --><PaymentBalance>0</PaymentBalance>
+			<!-- 生産実績 --><ProdActual>0</ProdActual>
+			<!-- 検査実績 --><InspectionActual>0</InspectionActual>
+			<!-- 仕掛量 --><WIP>0</WIP>
+			<!-- 在庫 --><InTransit>0</InTransit>
+			<!-- 注残 --><Backlog>0</Backlog>
+			<!-- 保管量 --><InventoryActual>0</InventoryActual>
+			<!-- 輸送中在庫 --><InTransitDetails>0</InTransitDetails>
+			<!-- 在庫不足余裕度 --><StockShortageMargin>0</StockShortageMargin>
+			<!-- 個体管理 --><IDLog>0</IDLog>
+			<!-- コンテナコスト --><ContainerCost>0</ContainerCost>
+			<!-- コンテナ積載詳細 --><ContainerLoadingDetails>0</ContainerLoadingDetails>
+			<!-- Box品入庫実績 --><BoxArrivalActual>0</BoxArrivalActual>
+			<!-- Box品出庫実績 --><BoxShipActual>0</BoxShipActual>
+			<!-- Box品保管量 --><BoxInventoryActual>0</BoxInventoryActual>
+			<!-- 注文取消し履歴 --><OrderCancelHistory>0</OrderCancelHistory>
+			<!-- Box分解(ピック)出庫実績 --><PickedShipActual>0</PickedShipActual>
+			<!-- Box在庫 --><BoxInTransit>0</BoxInTransit>
+			<!-- Box輸送中在庫 --><BoxInTransitDetails>0</BoxInTransitDetails>
+			<!-- 炭素排出量 --><CO2Emission>0</CO2Emission>
+		</Daily>
+		<Event>
+			<!-- 口座残高 --><AccountBalance>0</AccountBalance>
+			<!-- 需要実績 --><ActualDemand>0</ActualDemand>
+			<!-- 入庫実績 --><ArrivalActual>0</ArrivalActual>
+			<!-- 出庫実績 --><ShipActual>0</ShipActual>
+			<!-- 入金実績 --><ReceivingActual>0</ReceivingActual>
+			<!-- 出金実績 --><PaymentActual>0</PaymentActual>
+			<!-- 売掛残高 --><SalesBalance>0</SalesBalance>
+			<!-- 買掛残高 --><PaymentBalance>0</PaymentBalance>
+			<!-- 生産実績 --><ProdActual>0</ProdActual>
+			<!-- 検査実績 --><InspectionActual>0</InspectionActual>
+			<!-- 仕掛量 --><WIP>0</WIP>
+			<!-- 在庫 --><InTransit>0</InTransit>
+			<!-- 注残 --><Backlog>0</Backlog>
+			<!-- 保管量 --><InventoryActual>0</InventoryActual>
+			<!-- 輸送中在庫 --><InTransitDetails>0</InTransitDetails>
+			<!-- 在庫不足余裕度 --><StockShortageMargin>0</StockShortageMargin>
+			<!-- 消失履歴 --><LostHistory>0</LostHistory>
+			<!-- 標準原価 --><CostAccounting>0</CostAccounting>
+			<!-- コンテナコスト --><ContainerCost>0</ContainerCost>
+			<!-- コンテナ積載詳細 --><ContainerLoadingDetails>0</ContainerLoadingDetails>
+			<!-- Box品入庫実績 --><BoxArrivalActual>0</BoxArrivalActual>
+			<!-- Box品出庫実績 --><BoxShipActual>0</BoxShipActual>
+			<!-- Box品保管量 --><BoxInventoryActual>0</BoxInventoryActual>
+			<!-- 注文取消し履歴 --><OrderCancelHistory>0</OrderCancelHistory>
+			<!-- Box分解(ピック)出庫実績 --><PickedShipActual>0</PickedShipActual>
+			<!-- Box在庫 --><BoxInTransit>0</BoxInTransit>
+			<!-- Box輸送中在庫 --><BoxInTransitDetails>0</BoxInTransitDetails>
+		</Event>
+		<Log>
+			<!-- 企業品目 --><!-- CompanyItem>0</CompanyItem -->
+			<!-- 入庫予定 --><ArrivalSchedule>0</ArrivalSchedule>	
+			<!-- 注文 --><PurchaseOrder>0</PurchaseOrder>	
+			<!-- 販売計画 --><SalesPlan>0</SalesPlan>	
+			<!-- 供給計画 --><SupplyPlan>0</SupplyPlan>	
+			<!-- 調達計画 --><ProcPlan>0</ProcPlan>	
+			<!-- 注残 --><Backlog>0</Backlog>	
+			<!-- 出庫指示 --><ShipInstruction>0</ShipInstruction>	
+			<!-- 実需 --><ActualDemand>0</ActualDemand>	
+			<!-- 需要予測 --><DemandForecast>0</DemandForecast>	
+			<!-- 生産計画 --><ProdPlan>0</ProdPlan>	
+			<!-- 検査計画 --><InspectionPlan>0</InspectionPlan>
+			<!-- 生産指示 --><ProdInstruction>0</ProdInstruction>	
+			<!-- 検査指示 --><InspectionInstruction>0</InspectionInstruction>	
+			<!-- 支払予定 --><PaymentProgram>0</PaymentProgram>	
+			<!-- 安全在庫 --><SafetyStock>0</SafetyStock>	
+			<!-- AgentJobLog --><AgentJobLog>0</AgentJobLog>	
+			<!-- ResourceMaster --><ResourceMaster>0</ResourceMaster>	
+			<!-- ToolMaster --><ToolMaster>0</ToolMaster>	
+			<!-- ResourceLog --><!-- ResourceLog>0</ResourceLog -->	
+			<!-- ResourceStatus --><ResourceStatus>0</ResourceStatus>	
+			<!-- ResourceSharingResults --><ResourceSharingResults>0</ResourceSharingResults>	
+			<!-- ToolLog --><!-- ToolLog>0</ToolLog -->	
+		</Log>
+	</LogOutputControl>
+
+	<LogSaveControl>
+		<Daily>
+			<!-- 口座残高 --><AccountBalance>1</AccountBalance>
+			<!-- 需要実績 --><ActualDemand>1</ActualDemand>
+			<!-- 入庫実績 --><ArrivalActual>1</ArrivalActual>
+			<!-- 出庫実績 --><ShipActual>1</ShipActual>
+			<!-- 入金実績 --><ReceivingActual>1</ReceivingActual>
+			<!-- 出金実績 --><PaymentActual>1</PaymentActual>
+			<!-- 売掛残高 --><SalesBalance>1</SalesBalance>
+			<!-- 買掛残高 --><PaymentBalance>1</PaymentBalance>
+			<!-- 生産実績 --><ProdActual>1</ProdActual>
+			<!-- 検査実績 --><InspectionActual>1</InspectionActual>
+			<!-- 仕掛量 --><WIP>1</WIP>
+			<!-- 在庫 --><InTransit>1</InTransit>
+			<!-- 注残 --><Backlog>1</Backlog>
+			<!-- 保管量 --><InventoryActual>1</InventoryActual>
+			<!-- 輸送中在庫 --><InTransitDetails>1</InTransitDetails>
+			<!-- 在庫不足余裕度 --><StockShortageMargin>1</StockShortageMargin>
+			<!-- 個体管理 --><IDLog>1</IDLog>
+			<!-- コンテナコスト --><ContainerCost>1</ContainerCost>
+			<!-- コンテナ積載詳細 --><ContainerLoadingDetails>1</ContainerLoadingDetails>
+			<!-- Box品入庫実績 --><BoxArrivalActual>1</BoxArrivalActual>
+			<!-- Box品出庫実績 --><BoxShipActual>1</BoxShipActual>
+			<!-- Box品保管量 --><BoxInventoryActual>1</BoxInventoryActual>
+			<!-- 注文取消し履歴 --><OrderCancelHistory>1</OrderCancelHistory>
+			<!-- Box分解(ピック)出庫実績 --><PickedShipActual>1</PickedShipActual>
+			<!-- Box在庫 --><BoxInTransit>1</BoxInTransit>
+			<!-- Box輸送中在庫 --><BoxInTransitDetails>1</BoxInTransitDetails>
+			<!-- 炭素排出量 --><CO2Emission>1</CO2Emission>
+		</Daily>
+		<Event>
+			<!-- 口座残高 --><AccountBalance>1</AccountBalance>
+			<!-- 需要実績 --><ActualDemand>1</ActualDemand>
+			<!-- 入庫実績 --><ArrivalActual>1</ArrivalActual>
+			<!-- 出庫実績 --><ShipActual>1</ShipActual>
+			<!-- 入金実績 --><ReceivingActual>1</ReceivingActual>
+			<!-- 出金実績 --><PaymentActual>1</PaymentActual>
+			<!-- 売掛残高 --><SalesBalance>1</SalesBalance>
+			<!-- 買掛残高 --><PaymentBalance>1</PaymentBalance>
+			<!-- 生産実績 --><ProdActual>1</ProdActual>
+			<!-- 検査実績 --><InspectionActual>1</InspectionActual>
+			<!-- 仕掛量 --><WIP>1</WIP>
+			<!-- 在庫 --><InTransit>1</InTransit>
+			<!-- 注残 --><Backlog>1</Backlog>
+			<!-- 保管量 --><InventoryActual>1</InventoryActual>
+			<!-- 輸送中在庫 --><InTransitDetails>1</InTransitDetails>
+			<!-- 在庫不足余裕度 --><StockShortageMargin>1</StockShortageMargin>
+			<!-- 消失履歴 --><LostHistory>1</LostHistory>
+			<!-- 標準原価 --><CostAccounting>1</CostAccounting>
+			<!-- コンテナコスト --><ContainerCost>1</ContainerCost>
+			<!-- コンテナ積載詳細 --><ContainerLoadingDetails>1</ContainerLoadingDetails>
+			<!-- Box品入庫実績 --><BoxArrivalActual>1</BoxArrivalActual>
+			<!-- Box品出庫実績 --><BoxShipActual>1</BoxShipActual>
+			<!-- Box品保管量 --><BoxInventoryActual>1</BoxInventoryActual>
+			<!-- 注文取消し履歴 --><OrderCancelHistory>1</OrderCancelHistory>
+			<!-- Box分解(ピック)出庫実績 --><PickedShipActual>1</PickedShipActual>
+			<!-- Box在庫 --><BoxInTransit>1</BoxInTransit>
+			<!-- Box輸送中在庫 --><BoxInTransitDetails>1</BoxInTransitDetails>
+		</Event>
+		<Log>
+			<!-- 入庫予定 --><ArrivalSchedule>1</ArrivalSchedule>	
+			<!-- 注文 --><PurchaseOrder>1</PurchaseOrder>	
+			<!-- 販売計画 --><SalesPlan>1</SalesPlan>	
+			<!-- 供給計画 --><SupplyPlan>1</SupplyPlan>	
+			<!-- 調達計画 --><ProcPlan>1</ProcPlan>	
+			<!-- 注残 --><Backlog>1</Backlog>	
+			<!-- 出庫指示 --><ShipInstruction>1</ShipInstruction>	
+			<!-- 生産計画 --><ProdPlan>1</ProdPlan>	
+			<!-- 検査計画 --><InspectionPlan>1</InspectionPlan>
+			<!-- 生産指示 --><ProdInstruction>1</ProdInstruction>	
+			<!-- 検査指示 --><InspectionInstruction>1</InspectionInstruction>	
+			<!-- 支払予定 --><PaymentProgram>1</PaymentProgram>	
+			<!-- AgentJobLog --><AgentJobLog>1</AgentJobLog>	
+			<!-- 安全在庫 --><SafetyStock>1</SafetyStock>	
+		</Log>
+	</LogSaveControl >
+
+	<Dir>
+		<InputDir> ./data </InputDir>
+		<OutputDir> ./out </OutputDir>
+		<LogDir> ./log </LogDir>
+	</Dir>
+	<Agent>
+		<!-- TriggerIntdays> 0 </TriggerIntdays -->
+		<TriggerIntdays> 1 </TriggerIntdays>
+		<!-- TriggerPauseMinute> 1 </TriggerPauseMinute -->
+
+	</Agent>
+	<Log>
+		<!-- 個体管理ログ出力 未出力:=0/省略、通常:=1、ブロック型:=2 -->
+		<DispTraceManage> 1 </DispTraceManage>
+
+		<!--デバッグ用出力  -->
+		<!--出庫指示A開始/終了時刻出力 未出力:=0/省略、出力:=1 -->
+		<DebugShipInstAgent> 0 </DebugShipInstAgent>
+		<!--出庫イベント開始/終了時刻出力 未出力:=0/省略、出力:=1 -->
+		<DebugShipEvent> 0 </DebugShipEvent>
+		<!--入庫イベント開始/終了時刻出力 未出力:=0/省略、出力:=1 -->
+		<DebugArrivalEvent> 0 </DebugArrivalEvent>
+		<!--エージェント開始/終了時刻出力 未出力:=0/省略、出力:=1 -->
+		<DebugAllAgent> 0 </DebugAllAgent>
+
+	</Log>
+	<Container>
+		<!-- 最小有効量の算出用除数桁数(省略時…2) -->
+		<!-- 例…2→1/100 (10^-2) -->
+		<MinEffectNumDigit> 3 </MinEffectNumDigit>
+		<!-- 全コンテナ容量節約モード
+			(省略時…0(通常モード) 
+			 		1(全コンテナ廃棄モード)  -->
+		<SaveBufferMode>0</SaveBufferMode>
+	</Container>
+	<Box>
+		<!-- BoxOFR下限省略時値(省略時…0.0) -->
+		<!-- 値範囲:0.0～1.0 -->
+		<!-- BoxOFR>0.3</BoxOFR -->
+		<BoxOFR>0.0</BoxOFR>
+	</Box>
+	<Loader>
+		<!-- 分割入力ファイル確認モード
+			(省略時…0(分割ファイルを確認しない…通常モード) 
+			 		1(確認する)  -->
+		<SplitLoadFileCheck>0</SplitLoadFileCheck>
+	</Loader>
+	<!-- 省略時為替レート指定
+			(CompanyIS.csv中CurrencyID省略(空欄)時使用される為替レート)
+			省略時…1.0  -->
+	<DefaultExchangeRate>
+		1.0
+	</DefaultExchangeRate>
+
+	<!-- SimulationLog出力制御 -->
+	<!-- 標準出力のみ出力:=0/省略、ファイルのみ出力:=1 標準出力/ファイル双方出力:=2-->
+	<SimulationLogOutput>1</SimulationLogOutput>
+
+	<LogInputControl>
+		<!-- デリミタ指定 カンマ:=0/省略、タブ:=1 -->
+		<Delimiter>0</Delimiter>
+	</LogInputControl>
+
+</SCMEngineSettings>
