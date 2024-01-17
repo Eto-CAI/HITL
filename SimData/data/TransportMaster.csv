@@ -1,6 +1,6 @@
 ﻿#CompanyISID,ItemID,TransportType,ItemUnitPrice,TransportLT,AllocationRate,TransportUnitCost,TransportLotSize,OrderFixedPeriod,TransportMeanID,ResourceAccomAgentISID
-T1,partsC,1,,7,100,1,1,7,,
-T1,partsB,1,,7,100,1,1,7,,
+T1,partsC,1,,7,100,1,1,21,,
+T1,partsB,1,,7,100,1,1,14,,
 T1,partsA,1,,7,100,1,1,7,,
 T2,C,1,,1,100,1,1,1,,
 T2,B,1,,1,100,1,1,1,,
